@@ -12,7 +12,6 @@ function Suggestions() {
         }))
         setSuggestions(suggestions)
     },[])
-
     return (
         <div className='mt-4 ml-10'>
             <div className='flex justify-between text-sm mb-5'>
@@ -21,7 +20,7 @@ function Suggestions() {
             </div>
 
             {
-                suggestions.map((profile)=>(
+                suggestions?.map((profile)=>(
                     <div
                         key={profile.id}
                         className='flex items-center justify-between mt-3'
