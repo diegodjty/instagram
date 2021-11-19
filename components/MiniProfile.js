@@ -1,4 +1,4 @@
-import { signOut, signIn, useSession } from 'next-auth/react';
+import { signOut, signIn, useSession } from 'next-auth/client';
 
 function MiniProfile() {
 

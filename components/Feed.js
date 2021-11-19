@@ -1,4 +1,4 @@
-import { useSession } from "next-auth/react";
+import { useSession } from "next-auth/client";
 import MiniProfile from "./MiniProfile"
 import Posts from "./Posts"
 import Stories from "./Stories"

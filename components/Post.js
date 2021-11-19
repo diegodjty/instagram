@@ -8,7 +8,7 @@ import {
     PaperAirplaneIcon
 } from '@heroicons/react/outline'
 import {HeartIcon as HearIconFilled} from '@heroicons/react/solid' 
-import { useSession } from 'next-auth/react';
+import { useSession } from 'next-auth/client';
 import { useState, useEffect } from 'react';
 import { addDoc, collection, deleteDoc, doc, onSnapshot, query, serverTimestamp, setDoc } from '@firebase/firestore';
 import { db } from '../firebase';

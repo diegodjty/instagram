@@ -9,7 +9,7 @@ import {
 
 } from '@heroicons/react/outline'
 import {HomeIcon} from '@heroicons/react/solid'
-import { signIn, signOut, useSession } from 'next-auth/react'
+import { signIn, signOut, useSession } from 'next-auth/client'
 import { useRouter } from 'next/dist/client/router';
 import { useRecoilState } from 'recoil';
 import { modalState } from './../atoms/modalAtom';
